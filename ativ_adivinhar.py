@@ -1,5 +1,5 @@
 import random
-number = random.randint(0,5)
+number = random.randint(0,10)
 print(number)
 
 number2 = int(input("Qual o número de 0 a 5? "))
