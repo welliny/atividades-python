@@ -1,10 +1,14 @@
 import random
+
+#computador
 number = random.randint(0,10)
 print(number)
 
-number2 = int(input("Qual o número de 0 a 5? "))
+#usuário
+number2 = int(input("Qual o número de 0 a 10? "))
 
-if(number == number2):
-    print("Você adivinhou, o número é ", number)
-else:
-    print("Tente novamente")
+while number2 != number:
+    print("Você errou! Tente novamente :D")
+    number2 = int(input("Qual o número de 0 a 10? "))
+
+print("Parabéns, você acertou!!!")
